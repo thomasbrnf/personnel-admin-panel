@@ -4,7 +4,7 @@ To launch admin-panel on your local machine, follow along this guide.
 
 STEP 1
 Create folder on your local machine, then open there terminal and use this commad: 
-git clone https://github.com/thomasbrnf/personnel-admin-panel.git
+`git clone https://github.com/thomasbrnf/personnel-admin-panel.git`
 
 STEP 2
 Go to recently pulled SERVER folder. Create there personnel.db and .env files.
