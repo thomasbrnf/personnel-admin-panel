@@ -12,11 +12,15 @@ open .env file, and instert there this line:
 PORT=4000
 
 Then, open terminal and type this commands:
-npm install and npm start
+`npm install
+npm start
+`
 
 Now, navigate yourself to CLIENT folder, and open here terminal as well.
-FOR TERMINAL IN CLIENT FOLDER:
-npm install and npm run dev
+And use this commands:
+`npm install
+npm run dev
+`
 
 STEP 3
 navigate to http://localhost:5173/
