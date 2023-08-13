@@ -21,6 +21,6 @@ npm install and npm run dev
 STEP 3
 navigate to http://localhost:5173/
 
-You good to go
+You`re good to go
 
 
