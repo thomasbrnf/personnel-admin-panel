@@ -1,5 +1,5 @@
 # personnel-admin-panel
-To launch admin-panel on your Windows machine, follow along this guide.
+To launch admin-panel on your local machine, follow along this guide.
 (THIS GUIDE ASSUMES THAT YOU ALREADY HAVE NODEJS ON YOU MACHINE)
 
 STEP 1
