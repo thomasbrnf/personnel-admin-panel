@@ -9,6 +9,7 @@ export default defineConfig({
       "/edit-person": "http://localhost:4000",
       "/add-person": "http://localhost:4000",
       "/delete-person": "http://localhost:4000",
+      "/generate-asc": "http://localhost:4000",
     },
   },
   plugins: [react()],

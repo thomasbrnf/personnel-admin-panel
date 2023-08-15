@@ -1,9 +1,9 @@
 import express from "express";
 import { db } from "../dabatase";
 import { PersonData } from "../utils/helper";
+import { getValues } from "./services";
 
 const router = express.Router();
-
 router.use(express.json());
 
 router.post("/add-person", async (req, res) => {
@@ -40,10 +40,6 @@ function getParamMarkers(data: PersonData) {
   return Object.keys(data)
     .map(() => "?")
     .join(", ");
-}
-
-function getValues(data: PersonData) {
-  return Object.values(data);
 }
 
 export { router as addPersonRouter };

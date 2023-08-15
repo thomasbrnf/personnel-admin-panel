@@ -4,6 +4,7 @@ import { MilitaryDisplay } from "./MilitaryDisplay";
 import { NotesDisplay } from "./NotesDisplay";
 import { HeadDisplay } from "./HeadDisplay";
 import { Buttons } from "./Buttons";
+import { ButtonASP } from "./ButtonASP";
 
 export {
   FamilyDisplay,
@@ -12,4 +13,5 @@ export {
   NotesDisplay,
   HeadDisplay,
   Buttons,
+  ButtonASP,
 };

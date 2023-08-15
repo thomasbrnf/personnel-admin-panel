@@ -2,7 +2,6 @@ import express from "express";
 import { db } from "../dabatase";
 
 const router = express.Router();
-
 router.use(express.json());
 
 router.get("/delete-person/:id", async (req, res) => {

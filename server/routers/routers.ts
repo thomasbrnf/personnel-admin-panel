@@ -1,9 +1,12 @@
 import express from "express";
-import { personnelRouter } from "../endpoints/personnel";
-import { specificPersonRouter } from "../endpoints/specificPerson";
-import { addPersonRouter } from "../endpoints/addPerson";
-import { editPersonRouter } from "../endpoints/editPerson";
-import { deletePersonRouter } from "../endpoints/deletePerson";
+import {
+  personnelRouter,
+  addPersonRouter,
+  editPersonRouter,
+  specificPersonRouter,
+  deletePersonRouter,
+  generateASCRouter,
+} from "../endpoints";
 
 const router = express.Router();
 
@@ -13,5 +16,7 @@ router.use(deletePersonRouter);
 
 router.use(addPersonRouter);
 router.use(editPersonRouter);
+
+router.use(generateASCRouter);
 
 export { router };
